@@ -1,0 +1,9 @@
+# Start and endtime in ticks. One minecraft day has 24000 ticks after which it loops back to 0.
+StartTime: 17000
+EndTime: 19000
+# Enter worldnames in which the plugin should apply.
+Worlds:
+  - world
+# Should the reschedule message be broadcast when time is changed by a command or plugin?
+NotifyOnTimeSkip: false
+DebugMessages: true

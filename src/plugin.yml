@@ -1,0 +1,8 @@
+main: dev.feriixu.HourOfThePhantom.Main
+name: HourOfThePhantom
+version: 1.0
+api-version: 1.15
+commands:
+   rescheduleHOTP:
+      description: Resets the scheduled Tasks.
+      usage: /rescheduleHOTP 
