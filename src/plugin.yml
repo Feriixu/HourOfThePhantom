@@ -4,5 +4,12 @@ version: 1.0
 api-version: 1.15
 commands:
    rescheduleHOTP:
-      description: Resets the scheduled Tasks.
-      usage: /rescheduleHOTP 
+      description: Resets the scheduled HOTP Tasks.
+      usage: /<command>
+      permission: hotp.reschedule
+      permission-message: No permission.
+permission:
+   hotp.reschedule:
+      description: Lets you use /rescheduleHOTP
+      default: op
+      
